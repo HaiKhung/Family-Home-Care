@@ -1,1 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css' rel='stylesheet'
+        integrity='sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD' crossorigin='anonymous'>
+    <link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css'>
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/toastr.js/2.1.4/toastr.min.css' />
+</head>
+
+<style type="text/css">
+    @font-face {
+        font-family: "Avenir Book";
+        src: url(../assets/Font/AvenirLTStd-Book.otf);
+    }
+
+    @font-face {
+        font-family: "Cambon Regular";
+        src: url(../assets/Font/Cambon-Regular.woff);
+    }
+
+    .background-construction {
+        background-image: url(../assets/images/Layer\ 16.png);
+        background-position: 50% 20%;
+        padding-top: 130px;
+        height: 100vh;
+        position: relative;
+        font-family: "Avenir Book";
+    }
+
+    .background-construction h1 {
+        font-family: "Cambon Regular";
+        font-size: 60px;
+    }
+
+    .background-construction .btn {
+        font-size: 11px;
+    }
+
+    .background-construction::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #969696;
+        opacity: 0.88;
+    }
+</style>
+
+<body>
+
+    <div class="container-fluid background-construction">
+        <div class="container">
+            <div class="row text-center card bg-transparent border-0 text-white">
+                <div class="col-12">
+                    <h1>New website coming soon</h1>
+                    <p>In the meantime, please reach us at</p>
+
+                    <div class="row">
+                        <div class="col-sm-6 mb-3 mb-sm-0">
+                            <div class="card h-100 border-0 bg-transparent">
+                                <div class="card-body">
+                                    <h5 class="card-title">FAMILY HOME CARE SERVICES<br/> OF BROOKLYN AND QUEENS</h5>
+                                    <p class="card-text d-flex flex-column">
+                                        <small>168 7th Street</small>
+                                        <small>Brooklyn, NY 11215</small>
+                                    </p>
+                                    <p class="card-text d-flex flex-column">
+                                        <small>718-832-0550</small>
+                                        <small>8am to 5pm Monday to Friday</small>
+                                    </p>
+                                    <a href="mailto:someone@example.com" class="btn border border-1 border-white rounded-0 text-white">EMAIL FAMILY HOME CARE SERVICES</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="card h-100 border-0 bg-transparent">
+                                <div class="card-body">
+                                    <h5 class="card-title">CARE AT HOME<br/> OF NEW YORK</h5>
+                                    <p class="card-text d-flex flex-column">
+                                        <small>168 7th Street</small>
+                                        <small>Brooklyn, NY 11215</small>
+                                    </p>
+                                    <p class="card-text d-flex flex-column">
+                                        <small>718-907-4700</small>
+                                        <small>8am to 5pm Monday to Friday</small>
+                                    </p>
+                                    <a href="mailto:someone@example.com" class="btn border border-1 border-white rounded-0 text-white">EMAIL FAMILY HOME CARE SERVICES</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <footer class="d-flex flex-column align-items-center pt-3">
+                    <small class="pb-4">After-hours, call 212-896-4020</small>
+                    <img src="./assets/images/The_Joing_commission_logo copy.gif" width="60" alt="Logo Family Home Care">
+                </footer>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
